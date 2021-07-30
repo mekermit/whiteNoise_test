@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>randomOsc test</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/addons/p5.sound.js"></script>
+    <!-- <script src="songEq.js" defer></script> -->
+    <script src="whiteNoise.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <audio src="./btnStart.mp3" id="startSound"></audio>
+        <div id="rFreq" class="radioInput">
+            <input type="radio" id="frq0" name="frequency" value="0" checked disabled hidden>
+            <label for="frq0">nofreq - Start! ===>>></label>
+            <input type="radio" id="frq1" name="frequency" value="63">
+            <label for="frq1">63Hz</label>
+            <input type="radio" id="frq2" name="frequency" value="125">
+            <label for="frq2">125Hz</label>
+            <input type="radio" id="frq3" name="frequency" value="250">
+            <label for="frq3">250Hz</label>
+            <input type="radio" id="frq4" name="frequency" value="500">
+            <label for="frq4">500Hz</label>
+            <input type="radio" id="frq5" name="frequency" value="1000">
+            <label for="frq5">1000Hz</label>
+            <input type="radio" id="frq6" name="frequency" value="2000">
+            <label for="frq6">2000Hz</label>
+            <input type="radio" id="frq7" name="frequency" value="4000">
+            <label for="frq7">4000Hz</label>
+            <input type="radio" id="frq8" name="frequency" value="8000">
+            <label for="frq8">8000Hz</label>
+            <input type="radio" id="frq9" name="frequency" value="16000">
+            <label for="frq9">16000Hz</label>
+        </div>
+    </main>
+</body>
+
+</html>
